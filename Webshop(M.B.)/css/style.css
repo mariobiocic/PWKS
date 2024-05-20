@@ -1,0 +1,137 @@
+nav {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    background-color: #a59c9a;
+    color: rgb(245, 239, 238);
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:active {
+    color: aquamarine;
+}
+
+body, html {
+    color: black;
+    font-size: 16px;
+    font-family: 'Trebuchet MS';
+    background-color: white;
+    
+}
+
+#header {
+    background-image: url("/images/crna.jpeg");
+    background-size: cover;
+   
+}
+
+.center-text p {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Slackside One';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    background-color: #a59c9a;
+    color: rgb(245, 239, 238);
+    clear:both;
+    text-align: center;
+    padding: 10px; 
+}
+
+
+.right img{
+    width: 25%; 
+    margin: 5px;
+}
+
+
+.left {
+    float: left;
+    width: 50%;
+    box-sizing: border-box; 
+    padding-right: 20px; 
+}
+
+
+.right {
+    text-align: center;
+    float: right;
+    width: 50%;
+    margin-top: 10px;
+}
+
+
+.center {
+    clear: both; 
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+.center img {
+    width: 25%;
+    margin: 5px;
+    text-align: center;
+}
+
+
+p, ul, ol, li {
+    color: black;
+    font-family: 'Gill Sans';
+    font-size: 16px;
+    
+}
+
+h1, h2 {
+    font-family: 'Courier New';
+    font-size: 18px;
+}
+
+
+.my-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.my-table th, .my-table td {
+    border: none;
+    text-align: center;
+    padding: 8px; 
+}
+
+.header-row {
+    background-color: #a59c9a;
+    color: rgb(245, 239, 238);
+}
+
+article {
+    display: block;
+    margin-bottom: 20px; 
+    overflow: auto; 
+}
+
+.tumb {
+    width: 300px; 
+    height: 300px;
+    margin-right: 10px; 
+    float: left; 
+}
+
+article h2,
+article p,
+article small {
+    display: block; 
+    margin: 2px;
+}
